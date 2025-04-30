@@ -10,6 +10,10 @@ impl<V: Copy> Mesh<V> {
     pub fn verts(&self) -> &[V] {
         &self.verts
     }
+    
+    pub fn verts_mut(&mut self) -> &mut [V] {
+        &mut self.verts
+    }
 
     pub fn tris_iter(&self) -> slice::Iter<'_, [usize; 3]> {
         self.tris.iter()
