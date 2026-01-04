@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 serde = {version = "1.0.202", features = ["derive"]}
-ear-algae = {version = "0.5.0", features = ["serde"]}
+ear-algae = {version = "0.5.1", features = ["serde"]}
 index-from-end = "1.0.0"
 rayon = "1.10.0"
 plyers = {git = "https://github.com/Quelfth/plyers"}

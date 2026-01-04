@@ -98,9 +98,9 @@ checksum = "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
 
 [[package]]
 name = "ear-algae"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1dffb104ca3db0265f99926f467844ec41bc3378fae99a1db97da5f803a75b74"
+checksum = "50cd18f464e1793d242e35aa09982c24fbd2167c229140d4b442c482afe66490"
 dependencies = [
  "culit",
  "maybe-trait",
@@ -237,7 +237,7 @@ checksum = "1816403e0ef5e0f0989b2a6e42f7884cc0e5c73041fce3245b9d4f9c115a4cd2"
 
 [[package]]
 name = "mish-mesh"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "bimap",
  "by_address",
