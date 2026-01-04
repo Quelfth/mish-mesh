@@ -1,5 +1,4 @@
-use ear_algae::{linear::Vect, traits::Field};
-
+use ear_algae::{traits::Field, Vect};
 
 // pub trait VertexMerge: VertexData {
 //     fn close_to(self, other: Self, threshold: Self::Scalar) -> bool;
@@ -35,7 +34,6 @@ impl<S: Field> VertexData for Vect<3, S> {
 }
 
 impl<S: Field> VertexPosition for Vect<3, S> {
-
     fn pos(self) -> Vect<3, Self::Scalar> {
         self
     }
